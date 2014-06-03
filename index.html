@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Who ate what?</title>
+	<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	body {
+		background: #e59a17;
+		font-family: 'Coming Soon', cursive;
+		color:#333;
+	}
+	h1 {
+		font-size: 48px;
+		line-height: 52px;
+		margin: 40px 0 0 0;
+	}
+	p {
+		font-size: 22px;
+		line-height: 36px;
+		margin: 0;
+	}
+	#container {
+		width: 1024px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.first {
+		background: #495fce;
+		margin: 40px 0;
+	}
+	.second {
+		background: #28b2a1;
+		margin: 40px 0;
+	}
+	.third {
+		background: #67358e;
+		margin: 40px 0;
+	}
+	div.game {
+		margin: 10px 0;
+		position: absolute;
+		width: 180px;
+		-webkit-transition:width 2s ease;
+		-moz-transition:width 2s ease;
+		transition:width 2s ease;
+		overflow: hidden;
+	}
+	div.game:active {
+		width: 1024px;
+	}
+</style>
+</head>
+<body>
+<div id="container">
+<h1>Who ate what?</h1>
+<p>Click on each food to find out.</p>
+<section class="first">
+<div class="game">
+<img src="img/path1.png" width="1024" height="616">
+</div>
+<div class="animals">
+<img src="img/animals1.png" width="1024" height="616">
+</div>
+</section>
+<section class="second">
+<div class="game">
+<img src="img/path2.png" width="1024" height="616">
+</div>
+<div class="animals">
+<img src="img/animals2.png" width="1024" height="616">
+</div>
+</section>
+<section class="third">
+<div class="game">
+<img src="img/path3.png" width="1024" height="616">
+</div>
+<div class="animals">
+<img src="img/animals3.png" width="1024" height="616">
+</div>
+</section>
+</div>
+</body>
+</html>
